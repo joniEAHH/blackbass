@@ -1,0 +1,15 @@
+	<div id="contact" class="group group5">
+		<h2 class="title white">Contact</h2>	
+		<dl class="border">
+			<div ng-repeat="contacts in $ctrl.contactItems track by $index" class="text">
+				<dt>{{ contacts.name }}</dt>
+				<dd><a ng-href="mailto:{{ contacts.email }}">{{ contacts.email }}</a></dd>
+			</div>
+	
+		
+		</dl>
+		<address class="address">{{$ctrl.location.cidade}}, {{$ctrl.location.pais}} </address>
+	</div>
+
+
+

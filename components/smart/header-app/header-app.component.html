@@ -1,0 +1,16 @@
+<header>
+    <nav id="open" class="nav">
+        <ul class="menu">
+            <li ng-repeat="item in $ctrl.mainMenu"
+            class="menu-items">
+            
+            <a ng-href="{{::item.link}}">
+                {{item.text}}
+             </a>
+         </li>
+     </ul>
+ </nav>
+ <a href="#open" class="open">&equiv;</a>
+ <a href="#close" class="close">&times;</a>
+</header>   
+

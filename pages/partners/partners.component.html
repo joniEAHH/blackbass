@@ -1,0 +1,10 @@
+<div id="partners" class="group group6">
+	<h2 class="title">Partners</h2>
+	<ul class="items">
+		<li ng-repeat="partners in $ctrl.partnersItems track by $index" class="list-items">
+			<a ng-href="{{ partners.href }}" title="Super Bock" target="_blank">
+				<img class="image" ng-src="{{ partners.path }}">
+			</a>
+		</li>
+	</ul>
+</div> 

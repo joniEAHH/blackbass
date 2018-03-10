@@ -1,0 +1,20 @@
+<div id="artists" class="group group2">
+	<a class="anchor" id=""></a>
+	<div class="container">
+		<h2 class="title">artists</h2>
+		<div class="flex-container">
+			<section ng-repeat="artists in $ctrl.feauturedProducts track by $index" class="flip-container">
+				<div id="card">
+					<figure class="front">
+						<img class="image" ng-src="{{ artists.image }}">
+					</figure>
+					<figure class="back">
+						<p class="text">
+							{{ artists.text }}
+						</p>
+					</figure>
+				</div>
+			</section>
+		</div>		
+	</div>
+</div>
