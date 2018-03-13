@@ -1,7 +1,7 @@
 angular.module('blackBass').constant('HEADER_APP.CONFIG', {
     mainMenuLinks: [{
         text: 'Home',
-        link: '../blackbass-ng'
+        link: '../blackbass'
     }, {
         text: 'Artists',
         link: '#artists',
