@@ -16,5 +16,13 @@
     "gulp-rename": "^1.2.2"
   },
   "author": "Joni Dores",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joniEAHH/blackbass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joniEAHH/blackbass/issues"
+  },
+  "homepage": "https://github.com/joniEAHH/blackbass#readme"
 }
