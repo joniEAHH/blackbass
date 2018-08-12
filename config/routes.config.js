@@ -14,7 +14,7 @@ angular.module('blackBass').config([
 		.when('/', {
 			template: '<homepage></homepage><artists></artists><lastedition></lastedition><tickets></tickets><contacts></contacts><partners></partners>'
 		})
-		// .when('/artists', {
+		// .when('#artists', {
 		// 	template: '<artists></artists>'
 		// })
 		// .when('/lastedition', {
